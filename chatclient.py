@@ -1,6 +1,9 @@
 #chatroom client
-import socket, select, string, sys
- 
+import socket
+import string
+import sys
+import select 
+
 def prompt() :
     sys.stdout.write('<You> ')
     sys.stdout.flush()
