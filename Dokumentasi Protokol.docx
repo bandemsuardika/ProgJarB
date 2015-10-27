@@ -1,0 +1,33 @@
+Dokumentasi Protokol Tugas 2 Pemrograman Jaringan
+
+Perintah-perintah yang tersedia :
+
+1. Login
+Command : login <username>
+Respond :
+1. Login Success -> Anda berhasil login
+2. Username already exist -> Username yang anda ingin gunakan sudah terpakai
+3. You already has a username -> Anda sudah memiliki username sebelumnya
+4. Username invalid -> Username yang ketikkan lebih dari satu kata
+5. Login need username -> Anda belum mengetikkan username
+
+2. Sendto
+Command : sendto <target username> <message>
+Respond :
+1. <target username> <message> -> Message berhasil dikirim ke target user
+2. Invalid command -> Format command tidak sesuai (tidak ada target username atau message)
+3. Please login first -> Anda belum melakukan login
+
+3. Sendall
+Command : sendall <message>
+Respond :
+1. <message> -> message berhasil dikirim ke semua user aktif
+2. Invalid command -> Format command tidak sesuai (tidak ada message)
+3. Please login first -> Anda belum melakukan login
+
+4. List
+Command : list
+Respond :
+1. List : <username> -> List username aktif berhasil ditampilkan
+2. Invalid command -> Format command tidak sesuai (ada kata tambahan setelah command list)
+3. Please login first -> Anda belum melakukan login
